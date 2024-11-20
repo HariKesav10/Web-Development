@@ -1,0 +1,31 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg{
+  width: 780px;
+  height: 438px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('./images/marvel.jpg');
+  background-position: center;
+}
+
+.sec{
+  background-color: #b3ff66;
+  min-height: 100vh;;
+}
