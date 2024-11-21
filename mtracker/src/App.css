@@ -1,15 +1,21 @@
-.App {
-  text-align: center;
-}
+
 
 .App-header {
-  background-color: #282c34;
-  /* background-image: "url(/marvel.png)"; */
+  /* background-color: #282c34; */
+  /* background-image: url('./images/marvel.png'); */
+  width: 1519px;
+  height: 650px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('./images/marvel.jpg');
+  background-position: top;
+  color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   font-size: calc(10px + 2vmin);
   color: white;
 }

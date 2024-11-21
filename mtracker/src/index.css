@@ -16,16 +16,26 @@ code {
     monospace;
 }
 
-.bg{
-  width: 780px;
-  height: 438px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('./images/marvel.jpg');
-  background-position: center;
-}
+
 
 .sec{
   background-color: #b3ff66;
-  min-height: 100vh;;
+  min-height: 100vh;
+  color: white;
+}
+
+.fi{
+  height: 300px;
+  width:200px;
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./images/the-wild-robot.jpg');
+}
+
+.grid{
+  height: 700px;
+  width: 800px;
+  margin-left: 100px;
+  background-color: aqua;
 }
